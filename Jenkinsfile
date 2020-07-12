@@ -6,6 +6,6 @@ node {
 		echo "Test"
 	}
 	state("Integration Test"){
-		echo "Integration Test"
+		echo "Integration"
 	}
 }
