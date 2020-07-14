@@ -14,7 +14,7 @@
 
 // Declarative pipeline
 pipeline{
-	// agent any
+	agent any
 	//  agent {
     //     docker { image 'node:13.8' }
     // }
@@ -28,7 +28,7 @@ pipeline{
 				echo "BUILD ID - $env.BUILD_ID"
 				echo "JOB NAME - $env.JOB_NAME"
 				echo "BRANCH - $env.BRANCH_NAME"
-				
+
 
 			}
 		}
